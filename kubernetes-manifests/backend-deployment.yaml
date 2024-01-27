@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: gangadhar0416/backend:latest
+          image: CONTAINER_IMAGE
           env:
           - name: SQL_PASSWORD
             value: admin123
